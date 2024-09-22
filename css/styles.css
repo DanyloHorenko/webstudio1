@@ -348,8 +348,35 @@ body {
 	letter-spacing: 1.08px;
 	text-align: center;
 	line-height: 36px; 
-	 
 	color: #212121;
+}
+.absolute {
+	position: absolute;
+	top: 258px;
+	/*width: 370px;
+	height: 294px; */
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(33, 150, 243, 0.90);
+	color: #FFF;
+	z-index: 10;
+	padding: 63px 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 400px;
+	line-height: 28px;
+	letter-spacing: 0.54px;
+	display: none;
+}
+.cartn {
+	position: relative;
+}
+.all-card:hover .absolute {
+	display: block;
 }
 
 

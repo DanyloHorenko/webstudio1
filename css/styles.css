@@ -84,6 +84,37 @@ body {
 .header-menu-item:hover a {
 	color: #2196F3;
 }
+.second-menu>li {
+	background: #FFF;
+	position: relative;
+}
+
+.second-menu>li a {
+	display: block;
+	color: #FFF;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.header-second-menu {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	padding: 20px 0 0;
+	display: none;
+	background: #FFF;
+}
+
+.header-second-menu a {
+	background: #2196F3;
+}
+
+.header-menu>li:hover .header-second-menu {
+	display: block;
+}
+.cartn>li {
+	position: relative;
+}
 
 .header-menu-right {
 	display: flex;

@@ -84,29 +84,34 @@ body {
 .header-menu-item:hover a {
 	color: #2196F3;
 }
-.second-menu>li {
-	background: #FFF;
-	position: relative;
+.second-menu {
+	padding: 5px;
 }
 
-.second-menu>li a {
+/*.second-menu>li a {
 	display: block;
-	color: #FFF;
+	color: #212121;
 	padding: 10px 30px;
 	text-transform: uppercase;
-	text-decoration: none;
-}
+	text-decoration: none; 
+} */
 .header-second-menu {
 	position: absolute;
 	left: 0;
 	top: 100%;
-	padding: 20px 0 0;
+	padding: 10px 10px 2px 10px;
 	display: none;
-	background: #FFF;
+	background: #2196F3;
+	border-radius: 6px;
 }
 
 .header-second-menu a {
-	background: #2196F3;
+	background: #2e5398;
+	border-radius: 6px;
+}
+.header-second-menu:hover a {
+	color: #212121;
+	display: block;
 }
 
 .header-menu>li:hover .header-second-menu {

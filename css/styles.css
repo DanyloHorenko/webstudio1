@@ -99,23 +99,39 @@ body {
 	position: absolute;
 	left: 0;
 	top: 100%;
-	padding: 10px 10px 2px 10px;
+	padding-top: 10px;
 	display: none;
 	background: #2196F3;
 	border-radius: 6px;
 }
 
 .header-second-menu a {
-	background: #2e5398;
+	background: #8c9499;
 	border-radius: 6px;
 }
 .header-second-menu:hover a {
 	color: #212121;
-	display: block;
 }
-
 .header-menu>li:hover .header-second-menu {
 	display: block;
+}
+.header-third-menu {
+	right: 100%;
+	top: 0;
+	padding: 5px 10px;
+	display: none;
+	background: #2196F3;
+	border-radius: 6px;
+	position: absolute;
+}
+.hover {
+
+}
+.hover>li:hover ul {
+	display: block;
+}
+.third-menu {
+	
 }
 .cartn>li {
 	position: relative;

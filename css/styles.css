@@ -138,7 +138,7 @@ body {
 
 .hero {
 	height: 600px;
-	background: #2F303A;
+	background-image: url("../img/big.jpg");
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -181,7 +181,29 @@ body {
 	display: flex;
 	gap: 30px;
 }
-
+.new {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 30px;
+}
+.new>div {
+	width: 270px;
+	height: 120px;
+	flex: 1 1 25%;
+	border-radius: 4px;
+}
+.new-cards {
+	background: #F5F4FA url("../img/antenna\ 1.svg") no-repeat 100px 25px;
+}
+.new-cards-2 {
+	background: #F5F4FA url("../img/clock\ 1.svg") no-repeat 100px 25px;
+}
+.new-cards-3 {
+    background: #F5F4FA url("../img/diagram\ 1.svg") no-repeat 100px 25px;
+}
+.new-cards-4 {
+	background: #F5F4FA url("../img/astronaut\ 1.svg") no-repeat 100px 25px;
+}
 .about-card {
 	flex: 1 1 25%;
 }
